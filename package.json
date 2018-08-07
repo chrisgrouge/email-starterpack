@@ -11,6 +11,6 @@
   "devDependencies": {
     "browser-sync": "^2.24.6",
     "gulp": "^3.9.1",
-    "gulp-juice": "^0.1.0"
+    "gulp-inline-css": "^3.3.0"
   }
 }

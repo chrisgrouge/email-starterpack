@@ -1,11 +1,11 @@
 var gulp = require("gulp");
-var juice = require("gulp-juice");
+var gulpInline = require("gulp-inline-css");
 var browserSync = require("browser-sync").create();
 
-gulp.task("juice", function() {
+gulp.task("gulpInline", function() {
   gulp
     .src("src/build.html")
-    .pipe(juice({ preserveMediaQueries: true, applyWidthAttributes: true }))
+    .pipe(gulpInline({ preserveMediaQueries: true, applyWidthAttributes: true }))
     .pipe(gulp.dest("dist/build-inline"))
     .pipe(
       browserSync.reload({
@@ -24,9 +24,9 @@ gulp.task("browserSync", function() {
 });
 
 // Watchers
-gulp.task("watch", ["juice", "browserSync"], function() {
-  gulp.watch(["src/build.html"], ["juice"]);
-  gulp.watch(["src/css/*.css"], ["juice"]);
+gulp.task("watch", ["gulpInline", "browserSync"], function() {
+  gulp.watch(["src/build.html"], ["gulpInline"]);
+  gulp.watch(["src/css/*.css"], ["gulpInline"]);
   gulp.watch("src/build.html").on("change", browserSync.reload);
 });
 
