@@ -14,20 +14,23 @@ gulp.task("gulpInline", function() {
     );
 });
 
-gulp.task("browserSync", function() {
-  browserSync.init({
-    server: {
-      baseDir: "dist",
-      index: "build-inline/build.html"
-    }
-  });
-});
+gulp.task("browserSync", runSync);
+
+function runSync() {
+  setTimeout(function() {
+    browserSync.init({
+      server: {
+        baseDir: "src",
+        index: "build.html"
+      }
+    });
+  }, 500);
+}
 
 // Watchers
 gulp.task("watch", ["gulpInline", "browserSync"], function() {
   gulp.watch(["src/build.html"], ["gulpInline"]);
   gulp.watch(["src/css/*.css"], ["gulpInline"]);
-  gulp.watch("src/build.html").on("change", browserSync.reload);
 });
 
 gulp.task("default", ["watch"]);
