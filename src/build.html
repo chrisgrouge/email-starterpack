@@ -127,8 +127,8 @@
     a:link,
     a:active,
     a:visited {
-      color: #b3b1b0;
-      text-decoration: underline;
+      color: #000000;
+      text-decoration: none;
       padding: 0px;
       margin: 0px;
     }
@@ -137,8 +137,8 @@
     a:link:hover,
     a:active:hover,
     a:visited:hover {
-      color: #b3b1b0;
-      text-decoration: underline;
+      color: #000000;
+      text-decoration: none;
       padding: 0px;
       margin: 0px;
     }
@@ -216,12 +216,20 @@
   </style>
   <!-- Outlook specific fonts -->
   <!--[if mso]>
-<style type="text/css">
-body, html, th, a, span {
-font-family: Arial, sans-serif !important;
-}
-</style>
-<![endif]-->
+  <style type="text/css">
+    th,
+    td,
+    p,
+    span,
+    b,
+    i,
+    a,
+    sup,
+    table {
+      font-family: Arial, Helvetica, sans-serif !important;
+    }
+  </style>
+  <![endif]-->
   <!-- Outlook specific fonts -->
   <!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
@@ -266,10 +274,10 @@ font-family: Arial, sans-serif !important;
                 </tr>
                 <!-- Start Top Navigation -->
                 <tr>
-                  <th align="center" border="0" class="hide" style="width:100%; background-color: #444444;" width="100%">
+                  <th align="center" border="0" class="hide" style="width:100%;" width="100%">
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="margin: 0 auto;">
                       <tr>
-                        <th class="test1">START NAVIGATION HERE</th>
+                        <th>START NAVIGATION HERE</th>
                       </tr>
                     </table>
                   </th>
@@ -281,7 +289,7 @@ font-family: Arial, sans-serif !important;
                     <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
                       <tbody>
                         <tr>
-                          <th class="mainContainer">MAIN BODY CONTENT GOES HERE</th>
+                          <th>MAIN BODY CONTENT GOES HERE</th>
                         </tr>
                       </tbody>
                     </table>
@@ -302,7 +310,7 @@ font-family: Arial, sans-serif !important;
               </tbody>
             </table>
             <!--[if !mso]> <!-->
-            <div class="show" style="font-size: 0; max-height: 0; overflow: hidden; display: none; mso-hide: all;">
+            <div class="show" style="max-height: 0; overflow: hidden; display: none; mso-hide: all;">
               <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
                 <tbody>
                   <tr>
