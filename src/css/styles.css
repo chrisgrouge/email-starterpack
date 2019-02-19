@@ -1,1 +1,88 @@
 /* All Template related styles go here **THESE WILL BE INLINED** */
+
+/* * General Helper Classes */
+
+.centered {
+  text-align: center !important;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.white {
+  color: #ffffff;
+}
+
+
+/* * Padding Helper Classes */
+
+.paddlr--primary {}
+
+.paddtb--primary {}
+
+.paddtb--lg {}
+
+.paddtb--xsm {}
+
+.paddtb--sm {}
+
+.paddBtm--sm {}
+
+.paddBtm--primary {}
+
+.paddBtm--md {}
+
+.paddBtm--40 {}
+
+.paddBtm--lg {}
+
+.paddTop--lg {}
+
+/* * Text Helper Classes */
+
+.txt--body,
+.txt--h1,
+.txt--h2,
+.txt--btn,
+.txt--link {
+  font-family: sans-serif;
+}
+
+.txt--h1 {}
+
+.txt--h2 {}
+
+.txt--body {}
+
+.txt--link {}
+
+.txt--btn {
+  color: #ffffff;
+  text-align: center;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #B4DA55;
+  padding: 12px 30px 12px 30px;
+}
+
+.txt--btn.ghost {
+  border: 2px solid #ffffff;
+}
+
+/* * Footer Text Helper Classes */
+
+.txt--footer--body {}
+
+.txt--footer--header {}
+
+
+.txt--h1.overlay,
+.txt--body.overlay {}
+
+
+/* * Social Media Helper Classes */
+
+.socialimg {}
