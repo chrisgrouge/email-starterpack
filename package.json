@@ -9,9 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.6",
-    "gulp": "^3.9.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-inline-css": "^3.3.0"
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-dom": "^1.0.0",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-inline-css": "^3.3.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   }
 }

@@ -4,8 +4,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Brand Name here</title>
+  <!-- * Hosted fonts go here if needed in the template -->
+  <link rel="stylesheet" href="../css/styles.css" type="text/css">
+  <title>Brand Title Here</title>
   <!-- ****************** These are GLOBAL resets to be preserved from inlining ********************** -->
   <style type="text/css" data-embed>
     /* Box Sizing Reset */
@@ -23,7 +24,7 @@
     /* ******************* */
 
     html * {
-      font-family: sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     body,
@@ -68,7 +69,7 @@
       -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
       -webkit-font-smoothing: antialiased;
-      font-family: sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     th {
@@ -105,7 +106,7 @@
     a {
       text-size-adjust: 100%;
       font-smoothing: antialiased;
-      font-family: sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     /* Apple Link Resets */
@@ -127,7 +128,7 @@
     a:link,
     a:active,
     a:visited {
-      color: #000000;
+      color: #222222;
       text-decoration: none;
       padding: 0px;
       margin: 0px;
@@ -137,7 +138,7 @@
     a:link:hover,
     a:active:hover,
     a:visited:hover {
-      color: #000000;
+      color: #222222;
       text-decoration: none;
       padding: 0px;
       margin: 0px;
@@ -168,15 +169,11 @@
   <style type="text/css">
     /* Mobile Styles */
 
-    @media only screen and (max-width: 640px) {
+    @media only screen and (max-width: 600px) {
       .mobile {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 0px !important;
-      }
-
-      .centered {
-        text-align: center !important;
       }
 
       .hide {
@@ -185,15 +182,24 @@
 
       .show {
         display: block !important;
-        max-height: none !important;
-        overflow: visible !important;
-        line-height: normal !important;
       }
 
       .stack {
-        width: 100% !important;
         display: block !important;
-        max-width: 100% !important;
+      }
+
+      .reset--width {
+        width: unset !important;
+      }
+
+      .hero img {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      /* Mobile-specific padding helper classes */
+      .m-pad--0 {
+        padding: 0 !important;
       }
     }
   </style>
@@ -206,6 +212,7 @@
     span.MsoHyperlinkFollowed {
       mso-style-priority: 99;
       color: inherit;
+      ;
     }
   </style>
   <style type="text/css" data-embed>
@@ -214,7 +221,8 @@
       display: none !important;
     }
   </style>
-  <!-- Outlook specific fonts -->
+
+  <!-- * Outlook specific fonts and styles -->
   <!--[if mso]>
   <style type="text/css">
     th,
@@ -240,11 +248,12 @@
 </head>
 
 <body style="width:100%; padding:0px; margin:0px;">
-  <!-- start hidden preheader -->
-  <div style="display: none; max-height: 0px; overflow: hidden;">Hidden Preheader text</div>
+  <!-- START: HIDDEN PREHEADER -->
+  <div style="display: none; max-height: 0px; overflow: hidden;">Hidden Preheader text goes here.</div>
   <!--[if !mso]><!-->
 
-  <div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr
+  <div style="display: none; max-height: 0px; overflow: hidden;">
+    &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr
     />&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr
     />&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr
     />&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr
@@ -257,79 +266,23 @@
     />&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr
     />&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
     <!--<![endif]-->
-    <!-- end preheader -->
+    <!-- END: HIDDEN PREHEADER -->
 
-    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; background-color: #ffffff;"
-      width="100%">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; background-color: #ffffff;" width="100%">
       <tbody>
         <tr>
-          <th align="center" border="0" style="padding-top:20px; padding-bottom:20px;">
-            <!-- email frame 640px wide -->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:640px; max-width:640px; background-color: #ffffff;"
-              width="640">
+          <th class="m-pad--0" align="center" border="0" style="padding-top:20px; padding-bottom:20px;">
+            <!-- email frame 600px wide -->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:600px; max-width:600px; background-color: #ffffff;"
+              width="600">
               <tbody>
-                <tr>
-                  <th align="center" border="0" style="width:100%; padding-bottom: 20px;" width="100%">HEADER CONTENT
-                    GOES HERE</th>
-                </tr>
-                <!-- Start Top Navigation -->
-                <tr>
-                  <th align="center" border="0" class="hide" style="width:100%;" width="100%">
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="margin: 0 auto;">
-                      <tr>
-                        <th>START NAVIGATION HERE</th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- End Top Navigation -->
-                <!-- Start Main Body Here -->
-                <tr>
-                  <th align="center" border="0" style="width:100%;" width="100%">
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-                      <tbody>
-                        <tr>
-                          <th>MAIN BODY CONTENT GOES HERE</th>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </th>
-                </tr>
-                <!-- END Main Body -->
-                <!-- START: FOOTER -->
-                <tr>
-                  <th align="center" width="100%" border="0" style="width:100%;">
-                    <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-                      <tr>
-                        <th>FOOTER CONTENT HERE</th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- END: FOOTER -->
+                {% block content %}
+
+
+                {% endblock %}
               </tbody>
             </table>
-            <!--[if !mso]> <!-->
-            <div class="show" style="max-height: 0; overflow: hidden; display: none; mso-hide: all;">
-              <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-                <tbody>
-                  <tr>
-                    <th align="center" border="0" class="mobilenav">MOBILE NAV ITEM</th>
-                  </tr>
-                  <tr>
-                    <th align="center" border="0" class="mobilenav">MOBILE NAV ITEM</th>
-                  </tr>
-                  <tr>
-                    <th align="center" border="0" class="mobilenav">MOBILE NAV ITEM</th>
-                  </tr>
-                  <tr>
-                    <th align="center" border="0" class="mobilenav mobilenav-bottomborder">MOBILE NAV ITEM</th>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <!-- <![endif]-->
-            <!-- end email frame 640px wide -->
+            <!-- end email frame 600px wide -->
           </th>
         </tr>
       </tbody>
