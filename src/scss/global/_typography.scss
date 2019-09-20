@@ -104,6 +104,22 @@
   }
 }
 
+// * Top Navigation Links
+.top-nav-item {
+  font-family: $primary-font;
+  padding: 0 20px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 16px;
+  color: $black;
+
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
 /* * Footer Text Helper Classes */
 
 .txt--footer--body {
