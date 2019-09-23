@@ -20,7 +20,7 @@ Installing these packages, gives you access to the `gulp` and `browser-sync` ter
 
 ### Cloning the repository
 ``` sh
-$ git clone https://github.com/h-jennings/code-perfect-mega-template.git [project-name]
+$ git clone https://github.com/h-jennings/email-starterpack.git [project-name]
 
 ```
 > **Very Important Note:** Avoid cloning this repo into a OneDrive directory. This repo contains thousands of tiny files that are completely unnecessary once you're done with the development process, and **do not** need to be synced to the cloud.  
