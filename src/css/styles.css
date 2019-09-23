@@ -43,6 +43,9 @@
   line-height: 1;
   font-size: 15px;
   color: #34bbdb; }
+  .txt--link a {
+    color: #34bbdb;
+    text-decoration: none; }
 
 .txt--btn {
   font-family: Arial, Helvetica, sans-serif;

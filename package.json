@@ -1,12 +1,9 @@
 {
-  "name": "test-build-email",
+  "name": "email-starter-pack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starter-pack and boilerplate for new master-template email template builds",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Hunter Jennings",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
@@ -17,5 +14,6 @@
     "gulp-nunjucks-render": "^2.2.3",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0"
-  }
+  },
+  "repository": "https://github.com/h-jennings/email-starterpack"
 }

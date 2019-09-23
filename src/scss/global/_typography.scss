@@ -49,6 +49,12 @@
   line-height: 1;
   font-size: 15px;
   color: $blue;
+
+  a {
+    color: $blue;
+    text-decoration: none;
+  }
+
 }
 
 .txt--btn {
