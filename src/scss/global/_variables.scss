@@ -1,11 +1,31 @@
 // * Brand Colors
 
-$blue: #34bbdb;
-$black: #222222;
+$black: #000000;
+$dark: #2c2b2b;
+$light-black: #2c2b2b;
 $white: #ffffff;
+$gold: #b19d80;
+$tan: #988b7d;
+$gray-tan: #8c8b8a;
+$light-gray: #f6f6f6;
+$gray: #6e6e6e;
+
 
 
 // * Typography
-$primary-font: Arial,
+$secondary-font: 'museo-sans',
 Helvetica,
+Arial,
 sans-serif;
+
+$primary-font: 'futura-pt', Helvetica, Arial, sans-serif;
+
+
+
+// * Font Weights
+$p-light: 300;
+$p-book: 400;
+$p-medium: 500;
+$p-demi: 600;
+$p-heavy: 700;
+$p-extra-bold: 800;

@@ -1,31 +1,59 @@
+/* * General Resets */
+th {padding: 0px;}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {margin: 0px;}
+ul, ol, li {padding: 0px;}
+
 /* * General Helper Classes */
 
-.centered {
+.align--centered {
   text-align: center;
 }
 
-.bold {
-  font-weight: 700;
+.align--right {
+  text-align: right;
 }
 
-th.align--left {
+.unbold {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: bold;
+  inline-font-weight: 700;
+}
+
+.align--left {
   text-align: left;
 }
 
-.white {
-  color: $white;
+.italic {
+  font-style: italic;
 }
 
-.black--bg {
-  background-color: $black;
-}
 
-.border-r--white {
-  border-right: 1px solid $white;
-}
 
-/* * Social Media Helper Classes */
+.black {color: $black;}
+.light-black {color: $light-black;}
+.white {color: $white;}
+.gold {color: $gold;}
+.tan {color: $tan;}
+.gray-tan {color: $gray-tan;}
+.light-gray {color: $light-gray;}
 
-.social-icon {
-  padding: 0 10px;
-}
+
+.bg-black {background-color: $black;}
+.bg-light-black {background-color: $light-black;}
+.bg-white {background-color: $white;}
+.bg-gold {background-color: $gold;}
+.bg-tan {background-color: $tan;}
+.bg-gray-tan {background-color: $gray-tan;}
+.bg-light-gray {background-color: $light-gray;}
+
+
+/* Custom Helper Classes */
+.font-size--30 {font-size: 30px;}
+.font-size--18 {font-size: 18px;}
+
+
+
+
