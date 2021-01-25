@@ -1,0 +1,79 @@
+/* Mobile Styles */
+@media only screen and (max-width: 640px) {
+  .mobile {width: 100% !important; max-width: 100% !important; min-width: 0px !important;}
+  .hero img {width: 100% !important; height: auto !important;}
+  .m-pad-lr--30 {padding-left: 30px !important; padding-right: 30px !important;}
+
+  .hide {display: none !important; }
+  .show {display: block !important; }
+  .stack {display: block !important;width: auto !important; }
+  .reset--width {width: unset !important; }
+  .reset--margin {margin: 0 auto !important; }
+  .align--reset {float: initial !important; }
+  .float--left {float: left !important;}
+  .float--right {float: right !important;}
+  .m-width--100 {width: 100% !important; }
+  .m-width--50 {width: 50% !important; }
+  .m-width--33 {width: 33% !important; }
+
+  .m-border--none {border: none !important; }
+  
+  /* Mobile-specific typography helper classes */
+  .txt--h1 {font-size: 45px !important;}
+
+  .m-centered {text-align: center !important; }
+  .m-left {text-align: left !important;}
+  .m-font--18 {font-size: 18px !important;}
+
+  /* Mobile-specific margin helper classes */
+  .m-marg-lr--30 {margin-left: 30px !important; margin-right: 30px !important;}
+  
+  /* Mobile-specific padding helper classes */
+  .m-pad--0 {padding: 0 !important; }
+  .m-pad-t--40 {padding-top: 40px !important;}
+  .m-pad-tb--30 {padding-top: 30px !important;padding-bottom: 30px !important; }
+  .m-pad-tb--40 {padding-top: 40px !important;padding-bottom: 40px !important; }
+  .m-pad-btm--20 {padding-bottom: 20px !important; }
+  .m-pad-btm--25 {padding-bottom: 25px !important; }
+  .m-pad-btm--30 {padding-bottom: 30px !important; }
+  .m-pad-btm--60 {padding-bottom: 60px !important; }
+  .m-pad-lr--30 {padding-left: 30px !important;padding-right: 30px !important; }
+  .m-pad-lr--65 {padding-left: 65px !important;padding-right: 65px !important; }
+  .m-pad-r--0 {padding-left: 0px !important;padding-right: 0px !important; }
+  .m-pad-r--30 {padding-left: 0px !important;padding-right: 0px !important; }
+  .logo-container {float: initial !important;width: 100% !important; }
+  .logo-container img {width:100% !important; max-width:288px !important; height: auto !important; margin: 0 auto !important; }
+  
+
+  /* Background Image Top Module */
+  .m-background-top {/** width always 100vw, height: image height divided by image width x100 **/
+    width: 100vw !important;height: 114.15vw !important; background-size: 100% !important; background-color: #ffffff !important; background-position: top center !important;}
+  .m-background-topHeight {height: 114.15vw !important;}
+
+
+  /* Background Image Two Module */
+  .m-bg-two {/** width always 100vw, height: image height divided by image width x100 **/
+    width: 100vw !important;height: 106.15vw !important;}
+  .m-bg-twoHeight {height: 106.15vw !important;}
+  .m-bg-two-spacer {height: 30vw !important;}
+  .m-bg-two-r1-spacer1 {width: 4.6vw !important;}
+  .m-bg-two-r1-spacer2 {width: 54.6vw !important;}
+  .m-bg-two-r1-textbox {width: auto !important; padding-top: 6vw !important;}
+  .m-bg-two-r2-textbox {width: auto !important; padding-top: 6vw !important;}
+  .m-bg-two-r2-spacer1 {width: 60.7vw !important;}
+  .m-bg-two-r2-spacer2 {width: 3.1vw !important;}
+
+
+  /* Background Image Scurve */
+  .m-background-scurve {/** width always 100vw, height: image height divided by image width x100 **/
+    width: 100vw !important;height: 61.5vw !important;}
+  .m-background-scurveHeight {height: 61.5vw !important;}
+  .m-background-scurve-textbox-right {width: 60% !important; padding-left: 30px !important;}
+  .m-background-scurve-textbox-left {width: 60% !important; padding-right: 30px !important;}
+
+  .float--none {float: none !important; }
+
+  .m-min-width--160{min-width: 160px !important;}
+
+  .bg-light-gray {background-color: #f6f6f6 !important;}
+}
