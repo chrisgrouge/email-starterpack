@@ -6,7 +6,7 @@ const {
   parallel
 } = require("gulp");
 const gulpInline = require("gulp-inline-css");
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const nunjucksRender = require("gulp-nunjucks-render");
 const htmlmin = require('gulp-html-minifier');
 const dom = require('gulp-dom');
