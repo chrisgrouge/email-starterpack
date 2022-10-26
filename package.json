@@ -6,7 +6,7 @@
   "author": "Chris Grouge",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.13",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-dom": "^1.0.0",
     "gulp-html-minifier": "^0.1.8",
