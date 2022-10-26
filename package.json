@@ -14,7 +14,7 @@
     "gulp-nunjucks-render": "^2.2.3",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.1.0",
-    "node-sass": "^5.0.0"
+    "node-sass": "^7.0.0"
   },
   "repository": "https://github.com/h-jennings/email-starterpack",
   "dependencies": {
